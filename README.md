@@ -27,8 +27,8 @@ export org=1
 ```
 
 Git for Windows\
-https://git-scm.com/download/win\
-Easily allows for curl and bash binaries in legacy Windows Operating Systems.
+https://git-scm.com/download/win
+<br>Easily allows for curl and bash binaries in legacy Windows Operating Systems.
 
 Scheduled Task
 The following creates a scheduled task that execute every minute.
