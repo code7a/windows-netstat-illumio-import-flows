@@ -12,11 +12,11 @@ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 License for the specific language governing permissions and limitations under
 the License.
 
-This script executes a netstat command, with the numerical form parameter, then imports the flows into illumio via the agent bulk traffic flows api.
+This script executes a netstat command, with the numerical form parameter, then imports the flows into illumio via the agent bulk traffic flows api.\
 Intended for legacy unsupported operating systems, such as Windows Server 2003.
 
-Dependencies:
-illumio.config file with illumio variables
+Dependencies:\
+illumio.config file with illumio variables\
 Example:
 ```
 export user=api_135450a1288aa3466
@@ -30,8 +30,8 @@ Git for Windows\
 https://git-scm.com/download/win
 <br>Easily allows for curl and bash binaries in legacy Windows Operating Systems.
 
-Scheduled Task
-The following creates a scheduled task that execute every minute.
+Scheduled Task\
+The following creates a scheduled task that execute every minute.\
 Note/change git and script directories.
 ```
 schtasks /create /sc minute /mo 1 /ru system /tn import-flows /tr "C:\PortableGit\bin\sh.exe -c \"bash 'C:\Documents and Settings\Administrator\windows-netstat-illumio-import-flows.sh'\""
