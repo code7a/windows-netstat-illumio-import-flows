@@ -26,8 +26,8 @@ export port=8443
 export org=1
 ```
 
-Git for Windows
-https://git-scm.com/download/win
+Git for Windows\
+https://git-scm.com/download/win\
 Easily allows for curl and bash binaries in legacy Windows Operating Systems.
 
 Scheduled Task
@@ -37,5 +37,5 @@ Note/change git and script directories.
 schtasks /create /sc minute /mo 1 /ru system /tn import-flows /tr "C:\PortableGit\bin\sh.exe -c \"bash 'C:\Documents and Settings\Administrator\windows-netstat-illumio-import-flows.sh'\""
 ```
 
-Reference:
+Reference:\
 https://docs.illumio.com/core/23.5/API-Reference/index.html
